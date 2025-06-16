@@ -428,3 +428,7 @@ Explore how you can use Copilot to help you:
 
 ## 🔎 Found an issue or have an idea for improvement?
 Help us make this template repository better by [letting us know and opening an issue!](/../../issues/new).
+
+## 📖 Proyecto adicional: Visualizador de silogismos
+
+En la carpeta `venn-syllogism` encontrarás un ejemplo básico para representar silogismos categóricos mediante un diagrama de Venn de tres conjuntos. Para ejecutarlo solo abre `venn-syllogism/src/index.html` en tu navegador favorito.
