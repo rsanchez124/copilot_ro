@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Visualizador de Silogismos</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Visualizador de Silogismos con Diagramas de Venn</h1>
+  <label for="syllogism">Selecciona un silogismo:</label>
+  <select id="syllogism">
+    <option value="AAA">Todo A es B; Todo B es C → Todo A es C</option>
+    <option value="EAC">Ningún A es B; Todo C es A → Ningún C es B</option>
+    <option value="IBO">Algún A es B; Ningún B es C → Algún A no es C</option>
+    <option value="ABO">Todo A es B; Algún B no es C → Algún A no es C</option>
+  </select>
+
+  <svg id="venn" width="500" height="400" viewBox="0 0 500 400"></svg>
+
+  <script src="script.js"></script>
+</body>
+</html>
